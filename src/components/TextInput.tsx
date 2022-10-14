@@ -33,7 +33,7 @@ function TextInputInput(props: TextInputInputProps) {
   return (
     <input
       {...props}
-      className="bg-transparent flex-1 outline-none  text-gray-100 text-xs placeholder:text-gray-400"
+      className="bg-transparent flex-1 outline-none text-gray-100 text-xs placeholder:text-gray-400 valid:text-cyan-300"
     />
   )
 }
